@@ -1,0 +1,1 @@
+# rn-typescript-rtk-persistence-template
