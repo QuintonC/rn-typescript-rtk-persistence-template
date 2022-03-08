@@ -1,0 +1,8 @@
+{
+    "name": "rn-typescript-rtk-persistence-template",
+    "version": "0.0.1",
+    "description": "React Native Template",
+    "repository": "git@github.com:QuintonC/rn-typescript-rtk-persistence-template.git",
+    "author": "Quinton Chester <quintonchester@gmail.com>",
+    "license": "MIT"
+}
