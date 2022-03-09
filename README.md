@@ -23,7 +23,7 @@ This template makes use of some other packages.
 - [React Navigation](https://github.com/react-navigation/react-navigation) - Standard application navigation.
 - [Redux Toolkit](https://github.com/reduxjs/redux-toolkit) - Simplified global state management.
 - [Redux Persist](https://github.com/rt2zz/redux-persist) - Persistent redux store.
-- [RN Progressive Image](https://github.com/QuintonC/rn-progressive-image) - A simple image package that helps aid in lazy loading large images by providing a smaller image to aid in showing a placeholder.
+- [RN Progressive Image](https://github.com/QuintonC/rn-progressive-image) - A simple yet dynamic lazy image component.
 
 ## 🕺 Usage
 
