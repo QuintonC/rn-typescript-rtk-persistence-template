@@ -1,0 +1,35 @@
+{
+	"New Component": {
+		"prefix": "newcomponent",
+		"body": [
+			"import React, { useEffect, useRef, useState } from 'react';",
+			"import { Text, View } from 'react-native';",
+			"",
+			"// Packages",
+			"",
+			"// Components",
+			"",
+			"// Style",
+			"",
+			"// Assets",
+			"",
+			"// Constants",
+			"",
+			"// Types",
+			"",
+			"// Actions",
+			"",
+			"// Utility Functions",
+			"",
+			"const ComponentName = () => {",
+			"",
+			"$1 return (",
+			"",
+			"$1 );",
+			"",
+			"}",
+			"export default ComponentName;"
+		],
+		"description": "Boilerplate for a new component with import structure"
+	}
+}
