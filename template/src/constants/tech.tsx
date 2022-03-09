@@ -11,7 +11,7 @@ export const packages: Package[] = [
         previewImageSmall: 'https://i.imgur.com/beL16lt.png',
     },
     {
-        title: 'Reanimated v2',
+        title: 'Reanimated',
         description: 'Faster, smoother, better animations to wow your users.',
         repositoryUrl:
             'https://github.com/software-mansion/react-native-reanimated/',
