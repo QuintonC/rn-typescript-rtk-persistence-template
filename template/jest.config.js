@@ -1,8 +1,4 @@
-import type { Config } from '@jest/types';
-
-// Sync object
-const config: Config.InitialOptions = {
-    verbose: true,
+module.exports = {
     preset: 'react-native',
     setupFiles: [
         './jest-setup.js',
@@ -10,7 +6,6 @@ const config: Config.InitialOptions = {
     ],
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
     transformIgnorePatterns: [
-        '/node_modules/(?!(@react-native|react-native|react-native-reanimated)/).*/',
+        '/node_modules/(?!(@react-native|react-native|rn-progressive-image|react-native-reanimated|@react-native-community)/).*/',
     ],
 };
-export default config;

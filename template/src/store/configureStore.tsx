@@ -2,13 +2,13 @@
 import { logger } from 'redux-logger';
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import {
-	FLUSH,
-	PAUSE,
-	PERSIST,
-	persistStore,
-	PURGE,
-	REGISTER,
-	REHYDRATE,
+    FLUSH,
+    PAUSE,
+    PERSIST,
+    persistStore,
+    PURGE,
+    REGISTER,
+    REHYDRATE,
 } from 'redux-persist';
 
 // Root Reducer
@@ -18,20 +18,20 @@ import { rootReducer } from 'store/combineReducers';
 import { initialState as initialSampleState } from 'slices/sampleSlice';
 
 const preloadedState = {
-	sample: initialSampleState,
+    sample: initialSampleState,
 };
 
 const defaultMiddleware = getDefaultMiddleware({
-	serializableCheck: {
-		ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
-	},
+    serializableCheck: {
+        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+    },
 });
 
 const store = configureStore({
-	reducer: rootReducer,
-	preloadedState: preloadedState,
-	middleware: getDefaultMiddleware =>
-		__DEV__ ? defaultMiddleware.concat(logger) : defaultMiddleware,
+    reducer: rootReducer,
+    preloadedState: preloadedState,
+    middleware: getDefaultMiddleware =>
+        __DEV__ ? defaultMiddleware.concat(logger) : defaultMiddleware,
 });
 persistStore(store);
 
