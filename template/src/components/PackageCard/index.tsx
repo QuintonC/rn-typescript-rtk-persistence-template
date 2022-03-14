@@ -22,7 +22,9 @@ const PackageCard = ({
             <Pressable
                 style={style.container}
                 onPress={() =>
-                    repositoryUrl !== '' && Linking.openURL(repositoryUrl)
+                    repositoryUrl !== '' &&
+                    repositoryUrl !== undefined &&
+                    Linking.openURL(repositoryUrl)
                 }>
                 <ProgressiveImage
                     small_source={{ uri: previewImageSmall }}

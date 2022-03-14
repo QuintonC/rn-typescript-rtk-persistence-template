@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center">A better React Native Template</h1>
 
-<p style="text-align: center">Built by <a href="https://github.com/QuintonC">QuintonC</a> with 🖤</p>
+<p style="text-align: center">Built with 🖤 by <a href="https://github.com/QuintonC">Quinton Chester</a></p>
 
 <p style="text-align: center">Want to help contribute? Feel free to open an <a href="https://github.com/QuintonC/rn-typescript-rtk-persistence-template/issues">issue</a>.</p>
 
@@ -23,7 +23,7 @@ This template makes use of some other packages.
 - [React Navigation](https://github.com/react-navigation/react-navigation) - Standard application navigation.
 - [Redux Toolkit](https://github.com/reduxjs/redux-toolkit) - Simplified global state management.
 - [Redux Persist](https://github.com/rt2zz/redux-persist) - Persistent redux store.
-- [RN Progressive Image](https://github.com/QuintonC/rn-progressive-image) - A simple image package that helps aid in lazy loading large images by providing a smaller image to aid in showing a placeholder.
+- [RN Progressive Image](https://github.com/QuintonC/rn-progressive-image) - A simple yet dynamic lazy image component.
 
 ## 🕺 Usage
 
@@ -171,3 +171,6 @@ Now all of your files should be looking clean with a defined import structure. T
 
 ## ✌️ Closing
 Have any questions? Feel free to reach out to me on [Twitter](https://twitter.com/quinton_ch), or open an [issue](https://github.com/QuintonC/rn-typescript-rtk-persistence-template/issues).
+
+## Contributors
+[epshtielsl](https://github.com/epshtielsl)
