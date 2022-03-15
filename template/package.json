@@ -7,6 +7,8 @@
         "ios": "react-native run-ios",
         "start": "react-native start",
         "test": "jest",
+        "test:coverage": "jest --coverage --watchAll=false",
+        "test:update": "jest --coverage --watchAll=false --updateSnapshot",
         "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
     },
     "dependencies": {
