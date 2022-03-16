@@ -23,7 +23,6 @@ describe('Sample Slice Testing', () => {
         const updatedObject = {
             id: '1234',
             value: 'testValue',
-            anotherValue: 'foo',
         };
 
         expect(reducer(initialState, setObjectData(updatedObject))).toEqual({
